@@ -38,3 +38,9 @@ The model weights (`yolov8n-pose.pt`) download automatically on first run.
 | `b`     | Toggle bounding boxes      |
 | `s`     | Toggle skeleton drawing    |
 | `SPACE` | Pause / resume the stream  |
+
+
+
+TO DO: 
+- Add localization in 3D space --> until mow everything is in 2D 
+- Update readme and go through reprodcability
