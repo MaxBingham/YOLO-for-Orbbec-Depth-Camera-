@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+.env
+*.env
+
+# ---- Model weights (large; pretrained ones auto-download) ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# ---- Ultralytics / YOLO training outputs ----
+runs/
+wandb/
+
+# ---- Datasets & captured frames (large, regenerable) ----
+datasets/
+data/
+captures/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.bag
+
+# ---- Logs ----
+Log/
+logs/
+*.log
+*.log.txt
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
